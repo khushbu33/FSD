@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+}
+body{
+    background-image:url(http://english.seoul.go.kr/wp-content/uploads/2020/11/songpa-book-museum-8.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 1709px 900px;
+}
+nav{
+    background-color:rgba(0, 0, 0, 0.608) ;
+    width: 100%;
+    height: 70px;
+} 
+
+nav a{
+    float: right;
+    padding-right: 60px;
+    padding-top: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(176, 163, 163);
+    font-weight:500;
+    font-family:sans-serif;
+}
+div{
+margin-top: 150px;
+}
+div h1{
+    font-size: 100px;
+     color: rgb(192, 27, 27);
+     font-family:sans-serif;
+}
+button{
+    border-radius: 9px;
+    font-size: 18px;
+    color: black;
+    display: inline-block;
+    background-color: rgb(186, 168, 168);
+    height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 45px;
+    width: 100px;
+}
+button:hover{
+    background-color:#cfb692;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.562);
+    color: beige;
+}
+.b1,.b2{
+    transition-duration: 0.5s;
+}
+.buttons{
+    margin-top: 30px;
+}
